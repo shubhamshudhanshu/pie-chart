@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
+
+/* *{
+  margin: 0;
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,4 +35,100 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.wrapper h1{
+/* font-family: 'Gotham SSm'; */
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #000000;
+}
+
+.divider{
+  width: 130px;
+  height: 3px;
+  background-color: #6C64F5;
+}
+.sections{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.sections .pie-chart-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.pie-chart-container h2{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #6C64F5;
+}
+.details{
+  margin-top: 5px;
+  width: 70%;
+}
+.detail{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0;
+}
+.value{
+  width: 80%;
+  text-align: left;
+  /* font-weight: 500; */
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  margin-left: 10px;
+}
+
+.value span{
+  font-weight: 700;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+.dot-container{
+  width: 20%;
+}
+.dot{
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+}
+.dot-1{
+  background: linear-gradient(0deg, #009EFD 0%, #00DBBE 100%);
+  box-shadow: 0px 24px 24px rgba(116, 235, 213, 0.2);
+}
+
+.dot-2{
+  background: linear-gradient(180deg, #FFA9EF 0%, #9D61FD 100%);
+  box-shadow: 0px 24px 24px rgba(116, 235, 213, 0.2);
+}
+
+.dot-3{
+  background: linear-gradient(42.88deg, #45E0A7 22.99%, #D5E969 79.32%);
+  box-shadow: 0px 24px 24px rgba(116, 235, 213, 0.2);
 }
